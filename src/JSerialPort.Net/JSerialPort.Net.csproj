@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>0.1.0-preview</PackageVersion>
+        <Title>JSerialPort.Net</Title>
+        <Authors>Noah.Ji</Authors>
+        <Copyright>2019 ChiHang</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
+      <PackageReference Include="System.IO.Ports" Version="4.6.0" />
+    </ItemGroup>
+
+</Project>
